@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/Bebas-Regular.otf');
+}
+
+@font-face {
+    font-family: 'coolvetica';
+    src: url('../fonts/coolvetica.otf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.servicio-box {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.service-info {
+    text-align: center;
+}
+
+.title-service {
+    font-family: bebas;
+    font-size: 25px;
+}
+
+.subtitle-service {
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.text-service {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.5;
+    width: 90%;
+    margin: auto;
+}
+
+.img-cont {
+    width: 100%;
+}
+
+.img-service {
+    width: 100%;
+}
+
+.separador {
+    width: 80%;
+    height: 3px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+
+.text-contact {
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.contact {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.cube {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: rgba(179, 181, 182);
+    cursor: pointer;
+}
