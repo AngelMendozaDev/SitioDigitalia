@@ -108,4 +108,19 @@
     color: #1c9311;
 }
 
-@media(max-width: 700px) {}
+@media(min-width: 700px) {
+    .servicio-box {
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+    .medio {
+        order: 0;
+    }
+    .medio .service-info {
+        order: 2;
+    }
+    .medio .img-cont {
+        order: 1;
+    }
+}
