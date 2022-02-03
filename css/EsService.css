@@ -74,12 +74,17 @@
 }
 
 .cube {
+    display: block;
     position: fixed;
     bottom: 10px;
     right: 10px;
     padding: 10px;
     background-color: rgba(179, 181, 182);
     cursor: pointer;
+}
+
+.oculto {
+    display: none;
 }
 
 .chat-whats {
